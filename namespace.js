@@ -17,4 +17,4 @@ var WILL0684 = {
   hghlght: function (ev){
     ev.target.classList.toggle("highlight");
   }
-}
+};
