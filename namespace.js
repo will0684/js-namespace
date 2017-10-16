@@ -3,7 +3,7 @@ var WILL0684 = {
     let div = document.createElement("div");
     div.classList.add("box");
     div.textContent = "WILL0684";
-    let boxes = document.getElementsById("boxes");
+    let boxes = document.getElementById("boxes");
     boxes.appendChild(div);
 
     div.addEventListener("click", WILL0684.bbcolour);
