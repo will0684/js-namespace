@@ -5,19 +5,19 @@ var WILL0684 = {
     div.classList.add("box");
     let text = document.createTextNode("will0684");
     div.appendChild(text);
-    let boxes = document.getElementsByClassName("boxes");
+    let boxes = document.getElementsById("boxes");
     boxes.appendChild(div);
 
-    div.addEventListener("click", bbcolour);
-    div.addEventListener("mouseover", hghlght);
-    div.addEventListener("mouseout", hghlght);
+    div.addEventListener("click", WILL0684.bbcolour);
+    div.addEventListener("mouseover", WILL0684.hghlght);
+    div.addEventListener("mouseout", WILL0684.hghlght);
 
-    function bbcolour(ev){
+    bbcolour: function (ev){
       ev.target.style.backgroundColor = "blue";
       ev.target.style.BorderColor = "orange";
-    }
-    function hghlght(ev){
+    };
+    hghlght: function (ev){
       ev.target.classList.toggle("highlight");
-    }
+    };
   }
 }
