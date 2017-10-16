@@ -2,7 +2,7 @@ var WILL0684 = {
   init: function(){
     let div = document.createElement("div");
     div.classList.add("box");
-    div.textContent("will0684")
+    div.textContent = "WILL0684";
     let boxes = document.getElementsById("boxes");
     boxes.appendChild(div);
 
