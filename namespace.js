@@ -12,7 +12,7 @@ var WILL0684 = {
   },
   bbcolour: function (ev){
     ev.target.style.backgroundColor = "blue";
-    ev.target.style.BorderColor = "orange";
+    ev.target.style.borderColor = "orange";
   },
   hghlght: function (ev){
     ev.target.classList.toggle("highlight");
